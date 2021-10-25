@@ -50,6 +50,6 @@ print(c(media(d), varianza(d), dt(d)))
 
 print("MEDIANA Y CUARTILES")
 #Se puede calcular todo directamente mediante 
-quantile(d)
+print(quantile(d))
 print("CUANTIL 32%")
-quantile(d, 0.32)
+print(quantile(d, 0.32))
